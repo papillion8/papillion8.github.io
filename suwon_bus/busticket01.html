@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+    <link rel="apple-touch-icon" href="./image/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.png">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bin/reset.css">
+        <link rel="stylesheet" href="./css/busticket.css">
+        <title>수원버스터미널</title>
+        <style></style>
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/jquery-migrate-3.0.0.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script>
+            $( function() {
+                $( "#section" ).tabs();
+            } );
+        </script>
+    </head>
+    <body>
+        <div id="box">
+            <div class="header01"><a href="ticket.html">예매확인</a></div>
+            <div class="header02">
+                <h1><a href="index.html"><img src="image/logo.png" alt="logo" class="logo"/></a></h1>
+                <nav class="nav">
+                    <ul>
+                        <li class="menu01">
+                            <a href=""><span>터미널안내</span></a>
+                            <div class="smallmenu">
+                                <ul>
+                                    <li><a href="place.html">주변현황</a></li>
+                                    <li><a href="platform.html">승차장안내</a></li>
+                                    <li><a href="map.html">오시는길</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu02">
+                            <a href=""><span>운행정보</span></a>
+                            <div class="smallmenu">
+                                <ul>
+                                    <li><a href="busticket01.html">시외버스예매</a></li>
+                                    <li><a href="busticket02.html">고속버스예매</a></li>
+                                    <li><a href="ticket.html">매표조회</a></li>
+                                    <li><a href="bus.html">운행정보</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu03">
+                            <a href=""><span>이용안내</span></a>
+                            <div class="smallmenu">
+                                <ul>
+                                    <li><a href="cancleinfo02.html">승차권예매안내</a></li>
+                                    <li><a href="cancleinfo.html">예매변경및취소안내</a></li>
+                                    <li><a href="buscomp.html">운수회사안내</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu04">
+                            <a href=""><span>고객지원</span></a>
+                            <div class="smallmenu">
+                                <ul>
+                                    <li><a href="info.html">공지사항</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="service.html">고객의소리</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="section">
+                <h2>시외버스예매</h2>
+                <div class="content">
+                    <div class="left_con">
+                        <dl>
+                            <dt>기초정보입력</dt>
+                            <dd>시외버스 예매 시스템<br>으로 안전하고 편리하게 여행하세요.</dd>
+                        </dl>
+                    </div>
+                    <div class="right_con">
+                        <ul class="search">
+                            <li class="con01">
+                                <dt>시외버스<br>예매</dt>
+                                <dd></dd>
+                            </li>
+                            <li class="way">
+                                <label class="oneway"><input type="radio" value="oneway"  name="way1">편도</label>
+                                <label class="twoway"><input type="radio" value="twoway"  checked="checked" name="way1">왕복</label>
+                            </li>
+                            <li  class="con02">
+                                <dt>출발지</dt>
+                                <dd>                                
+                                    <select name="start" id="start">
+                                        <option>수원</option>
+                                    </select>                              
+                                </dd>
+                            </li>
+                            <li  class="con03">
+                                <dt>도착지</dt>
+                                <dd>                                
+                                    <select name="end" id="end">
+                                        <option>도착지선택</option>
+                                        <option value="">가평</option>
+                                        <option value="">경주</option>
+                                        <option value="">고양</option>
+                                        <option value="">남원</option>
+                                        <option value="">당진</option>
+                                        <option value="">동해</option>
+                                        <option value="">마산</option>
+                                        <option value="">부여</option>
+                                        <option value="">삼척</option>
+                                        <option value="">성남</option>
+                                        <option value="">안성</option>
+                                        <option value="">여주</option>
+                                        <option value="">용인</option>
+                                        <option value="">정선</option>
+                                        <option value="">진도</option>
+                                        <option value="">청주</option>
+                                        <option value="">충주</option>
+                                        <option value="">평택</option>
+                                        <option value="">해남</option>
+                                        <option value="">횡성</option>
+                                    </select>                              
+                                </dd>
+                            </li>
+                            <li  class="con04">
+                                <dt>가는일시</dt>
+                                <dd>                                
+                                    <select name="goday" id="goday">
+                                        <option>2016-11-11</option>
+                                        <option value="">2016-11-12</option>
+                                        <option value="">2016-11-13</option>
+                                        <option value="">2016-11-14</option>
+                                        <option value="">2016-11-15</option>
+                                        <option value="">2016-11-16</option>
+                                        <option value="">2016-11-17</option>
+                                        <option value="">2016-11-18</option>
+                                        <option value="">2016-11-19</option>
+                                        <option value="">2016-11-20</option>
+                                        <option value="">2016-11-21</option>
+                                        <option value="">2016-11-22</option>
+                                        <option value="">2016-11-23</option>
+                                        <option value="">2016-11-24</option>
+                                        <option value="">2016-11-25</option>
+                                        <option value="">2016-11-26</option>
+                                        <option value="">2016-11-27</option>
+                                        <option value="">2016-11-28</option>
+                                        <option value="">2016-11-29</option>
+                                        <option value="">2016-11-30</option>
+                                    </select>                              
+                                </dd>
+                                <dd>                                
+                                    <select name="gotime" id="gotime">
+                                        <option>11:00</option>
+                                        <option value="">11:00</option>
+                                        <option value="">12:00</option>
+                                        <option value="">13:00</option>
+                                        <option value="">14:00</option>
+                                        <option value="">15:00</option>
+                                        <option value="">16:00</option>
+                                        <option value="">17:00</option>
+                                        <option value="">18:00</option>
+                                        <option value="">19:00</option>
+                                        <option value="">20:00</option>
+                                        <option value="">21:00</option>
+                                        <option value="">22:00</option>
+                                    </select>                              
+                                </dd>
+                            </li>
+                            <li class="con05">
+                                <dt>오는일시</dt>
+                                <dd>                                
+                                    <select name="comeday" id="comeday">
+                                        <option>2016-11-11</option>
+                                        <option value="">2016-11-12</option>
+                                        <option value="">2016-11-13</option>
+                                        <option value="">2016-11-14</option>
+                                        <option value="">2016-11-15</option>
+                                        <option value="">2016-11-16</option>
+                                        <option value="">2016-11-17</option>
+                                        <option value="">2016-11-18</option>
+                                        <option value="">2016-11-19</option>
+                                        <option value="">2016-11-20</option>
+                                        <option value="">2016-11-21</option>
+                                        <option value="">2016-11-22</option>
+                                        <option value="">2016-11-23</option>
+                                        <option value="">2016-11-24</option>
+                                        <option value="">2016-11-25</option>
+                                        <option value="">2016-11-26</option>
+                                        <option value="">2016-11-27</option>
+                                        <option value="">2016-11-28</option>
+                                        <option value="">2016-11-29</option>
+                                        <option value="">2016-11-30</option>
+                                    </select>                              
+                                </dd>
+                                <dd>                                
+                                    <select name="cometime" id="cometime">
+                                        <option>11:00</option>
+                                        <option value="">11:00</option>
+                                        <option value="">12:00</option>
+                                        <option value="">13:00</option>
+                                        <option value="">14:00</option>
+                                        <option value="">15:00</option>
+                                        <option value="">16:00</option>
+                                        <option value="">17:00</option>
+                                        <option value="">18:00</option>
+                                        <option value="">19:00</option>
+                                        <option value="">20:00</option>
+                                        <option value="">21:00</option>
+                                        <option value="">22:00</option>
+                                    </select>                              
+                                </dd>
+                            </li>
+                            <li>
+                                <dl  class="opt01">
+                                <dt>어른</dt>
+                                <dd>
+                                <select name="peo01" id="peo01">
+                                    <option>1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                </select>
+                                </dd>
+                                </dl>
+                                <dl class="opt02">
+                                <dt>중고생</dt>
+                                <dd>
+                                <select name="peo02" id="peo02">
+                                    <option>0</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                </select>
+                                </dd>
+                                </dl>
+                                <dl class="opt03">
+                                <dt>아동</dt>
+                                <dd>
+                                <select name="peo03" id="peo03">
+                                    <option>0</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                </select>
+                                </dd>
+                                </dl>
+                            </li>
+                            <li class="con06">
+                                <button name="submit" type="submit" id="submit">조회</button>
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <img src="image/suwon_footer_02.png" alt="footer" />
+                <address>경기도 수원시 권선구 경수대로 270 ㈜수원버스터미널 TEL:1688-5455  Copyright ⓒ 2008.SUWONBUSTERMINAL All Rights Reserved.</address>
+            </div>
+        </div>
+    </body>
+</html>

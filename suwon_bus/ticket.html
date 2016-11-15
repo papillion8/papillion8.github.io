@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" href="./image/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.png">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bin/reset.css">
+    <link rel="stylesheet" href="./css/ticket.css">
+    <title>수원버스터미널</title>
+    <style></style>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $("#right_con01").tabs();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="box">
+        <div class="header01"><a href="ticket.html">예매확인</a></div>
+        <div class="header02">
+            <h1><a href="index.html"><img src="image/logo.png" alt="logo" class="logo"/></a></h1>
+            <nav class="nav">
+                <ul>
+                    <li class="menu01">
+                        <a href=""><span>터미널안내</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="place.html">주변현황</a></li>
+                                <li><a href="platform.html">승차장안내</a></li>
+                                <li><a href="map.html">오시는길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu02">
+                        <a href=""><span>운행정보</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="busticket01.html">시외버스예매</a></li>
+                                <li><a href="busticket02.html">고속버스예매</a></li>
+                                <li><a href="ticket.html">매표조회</a></li>
+                                <li><a href="bus.html">운행정보</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu03">
+                        <a href=""><span>이용안내</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="cancleinfo02.html">승차권예매안내</a></li>
+                                <li><a href="cancleinfo.html">예매변경및취소안내</a></li>
+                                <li><a href="buscomp.html">운수회사안내</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu04">
+                        <a href=""><span>고객지원</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="info.html">공지사항</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="service.html">고객의소리</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="section">
+            <h2>매표조회</h2>
+            <div class="content">
+                <div class="left_con">
+                    <dl>
+                        <dt>카드번호로조회</dt>
+                        <dd>예매하신 승차권의 조회
+                            <br> 및 취소,변경을 하실수 있습니다.</dd>
+                    </dl>
+                </div>
+                <div id="right_con01">
+                    <ul class="bus">
+                        <li class="sc01"><a href="#section01">카드번호</a></li>
+                        <li class="sc02"><a href="#section02">휴대폰번호</a></li>
+                        <li class="sc03"><a href="#section03">예매번호</a></li>
+                    </ul>
+                    <div id="section01">
+                        <ul>
+                            <li class="sect01">
+                                <p>생년월일</p>
+                                <input type="text" name="birth" id="birth" value="ex)900101">
+                            </li>
+                            <li class="sect02">
+                                <p>카드번호</p>
+                                <input type="text" name="card" id="card" value="">
+                                <input type="text" name="card" id="card01" value="">
+                                <input type="text" name="card" id="card01" value="">
+                                <input type="text" name="card" id="card01" value="">
+                                
+                            <di class="sect03">
+                                <input type="radio" name="card" id="card02" checked="checked" value="VISA">
+                                <img src="./image/Visa.png" class="cardimg" alt="VISA">
+                                <input type="radio" name="card" id="card02" value="MASTER">
+                                <img src="./image/master.png" class="cardimg" alt="MASTER">
+                            </di>                 
+                            </li>
+                            <input type="submit" name="ok" id="ok" value="조회">
+                        </ul>
+                    </div>
+
+                    <div id="section02">
+                        <ul>
+                            <li class="sect01">
+                                <p>생년월일</p>
+                                <input type="text" name="birth" id="birth" value="">
+                            </li>
+                            <li class="sect05">
+                                <p>휴대폰</p>
+                                <input type="text" name="card" id="card" value="">
+                                <input type="text" name="card" id="card01" value="">
+                                <input type="text" name="card" id="card01" value="">
+                            </li>
+                            <input type="submit" name="ok" id="ok" value="조회">
+                        </ul>
+                    </div>
+                    <div id="section03">
+                        <ul>
+                            <li class="sect01">
+                                <p>생년월일</p>
+                                <input type="text" name="birth" id="birth" value="">
+                            </li>
+                            <li class="sect05">
+                                <p>예매번호</p>
+                                <input type="text" name="birth" id="birth" value="">
+                            </li>
+                            <input type="submit" name="ok" id="ok" value="조회">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right_con02">
+                <ul class="info01">
+                    <li class="info_left">
+                        <i class="fa fa-check fa-5x" aria-hidden="true"></i>
+                    </li>
+                    <li class="info_right">
+                        <p>"변경 > 매수변경" 버튼을 선택하여 예매한 승차권을 변경할 수 있습니다.<br>단, 매수 변경은 감소만 가능합니다.</p>
+                        <p>일자 및 시간 변경 시에는 기존에 애매한 사항은 모두 취소가 됨으로 기존에<br>적용되었던할인 혜택은 모두 삭제되며, 변경 시에 선택한 일자 및 시간, 매수 수량, 좌석 선택에 따라 할인 혜택이 적용됩니다.</p>
+                        <p>승차권 예매 취소 시, 결제 취소는 신용카드와 체크카드에 따라서 3~5일 가량의
+                            <br>처리 시간이 소요되며, 이후 해당 카드사에 문의하시면 취소 여부를 확인할 수<br>있습니다.</p>
+                        <p>승차권 에매 취소 시점에 따라서 취소 수수료가 발생할 수 있습니다.</p>
+                        <p>매수 변경을 하게 되면, “기존 승차권”에 대한 전체 취소가 발생되며,<br>“변경 승차권”은 재결제를 합니다.<br>&#40;ex, 5매 예매를 4매로 변경할 경우 : 5매 전체 예매 취소 후,<br>변경 된 4매에 대해서 다시 결제가 진행됩니다.&#41;</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="image/suwon_footer_02.png" alt="footer" />
+            <address>경기도 수원시 권선구 경수대로 270 ㈜수원버스터미널 TEL:1688-5455  Copyright ⓒ 2008.SUWONBUSTERMINAL All Rights Reserved.</address>
+        </div>
+    </div>
+</body>
+
+</html>

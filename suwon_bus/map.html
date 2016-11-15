@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" href="./image/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.png">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bin/reset.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <title>수원버스터미널</title>
+    <style></style>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $("#section").tabs();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="box">
+        <div class="header01"><a href="ticket.html">예매확인</a></div>
+        <div class="header02">
+            <h1><a href="index.html"><img src="image/logo.png" alt="logo" class="logo"/></a></h1>
+            <nav class="nav">
+                <ul>
+                    <li class="menu01">
+                        <a href=""><span>터미널안내</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="place.html">주변현황</a></li>
+                                <li><a href="platform.html">승차장안내</a></li>
+                                <li><a href="map.html">오시는길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu02">
+                        <a href=""><span>운행정보</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="busticket01.html">시외버스예매</a></li>
+                                <li><a href="busticket02.html">고속버스예매</a></li>
+                                <li><a href="ticket.html">매표조회</a></li>
+                                <li><a href="bus.html">운행정보</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu03">
+                        <a href=""><span>이용안내</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="cancleinfo02.html">승차권예매안내</a></li>
+                                <li><a href="cancleinfo.html">예매변경및취소안내</a></li>
+                                <li><a href="buscomp.html">운수회사안내</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu04">
+                        <a href=""><span>고객지원</span></a>
+                        <div class="smallmenu">
+                            <ul>
+                                <li><a href="info.html">공지사항</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="service.html">고객의소리</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="section">
+            <h2>오시는길</h2>
+            <div class="content">
+                <div class="left_con">
+                    <dl>
+                        <dt>오시는길</dt>
+                        <dd>도착지별 승차장을
+                            <br>안내해드립니다.</dd>
+                    </dl>
+                </div>
+                <div class="right_con">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2245.6682969599115!2d127.02026051318722!3d37.251158007685646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1478761542779" width="650" height="300" class="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <table class="info">
+                        <tr class="info01">
+                            <th class="thead01"><img src="./image/location.png" class="icon" alt="">주소</th>
+                            <td class="tbody01">경기도 수원시 권선구 경수대로 270 ㈜수원버스터미널 </td>
+                        </tr>
+                        <tr class="info02">
+                            <th class="thead01"><img src="./image/subway.png" class="icon" alt="">인근지하철</th>
+                            <td class="tbody01">수원역</td>
+                        <tr class="info03">
+                            <th class="thead01"><img src="./image/bus.png" class="icon" alt="">주변버스</th>
+                            <td class="tbody01">5, 7, 64, 80, 88, 112, 300, 303, 310, 900, 3002, 3007, 7001, 13-5, 300-1, 5-1, 6-1, 7-1, 82-1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="image/suwon_footer_02.png" alt="footer" />
+            <address>경기도 수원시 권선구 경수대로 270 ㈜수원버스터미널 TEL:1688-5455  Copyright ⓒ 2008.SUWONBUSTERMINAL All Rights Reserved.</address>
+        </div>
+    </div>
+</body>
+
+</html>
