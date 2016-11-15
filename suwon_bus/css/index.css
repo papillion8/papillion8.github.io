@@ -26,7 +26,9 @@ body{overflow-x: hidden;}
     background-color: rgba(1, 36, 72, 0.95);line-height: 3;}
 .smallmenu a {transition: all 0.3s;}
 .smallmenu a:hover {font-weight: bold; font-size: 18px; border-bottom: 1px solid #fff;}
-#section {width: 340px; height: 460px; margin-left: 775px; margin-top: 150px;
+
+
+#section {width: 340px; height: 440px; margin-left: 775px; margin-top: 140px;
     font-weight: bold;float: left;}
 
 .bus {width: 340px; height: 50px; font-weight: bold; float: left;}
@@ -43,7 +45,7 @@ body{overflow-x: hidden;}
 
 .bus > li.ui-tabs-active {background-color: rgba(255, 255, 255, 0.9);color: #012448;}
 
-#section01 {width: 340px;height: 400px;margin-top: 50px;
+#section01 {width: 340px;height: 380px;margin-top: 58px;
     background-color: rgba(255, 255, 255, 0.9);font-weight: bold;}
 
 .oneway {margin-top: 14px; margin-left: 114px; float: left;}
@@ -68,14 +70,14 @@ body{overflow-x: hidden;}
 #cometime {width: 125px; height: 30px; border-bottom: 1px solid #012448;
     margin-top: 25px; margin-left: 31px; float: left;}
 
-#section02 {width: 340px; height: 430px; margin-top: 60px;
+#section02 {width: 340px; height: 380px; margin-top: 58px;
     background-color: rgba(255, 255, 255, 0.9);font-weight: bold;}
 
 .sect01 {width: 340px; height: 53px; float: left;}
 
 .sect02 {width: 340px; height: 175px;float: left;}
 
-.sect03 {width: 287px; height: 176px; margin-top: -15px; float: left;
+.sect03 {width: 287px; height: 176px; margin-top: -20px; float: left;
     margin-left: 29px;}
 
 .opt01 {float: left; text-align: right;}
@@ -96,10 +98,10 @@ body{overflow-x: hidden;}
 
 .in02 {font-size: 12px; color: #d32c3d;}
 
-#navigation {width: 1200px; height: 200px; margin-top: 30px; background-color: #fff;
+#navigation {width: 1200px; height: 200px; margin-top: 610px; background-color: #fff;
     clear: both;}
 
-.info {width: 554px; height: 193px; margin-top: 24px; margin-bottom: 43px;
+.info {width: 554px; height: 153px; margin-top: 24px; margin-bottom: 43px;
     margin-left: 30px; border-right: 2px solid #ddd; color: #000; float: left;}
 
 .faq {width: 535px; height: 193px; margin: 24px 40px 43px 39px; float: right;}
