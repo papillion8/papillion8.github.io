@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" href="./image/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.png">
+    <link rel="stylesheet" href="./css/bin/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>LEY</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var duration = 1000;
+            var color = 'rgba(0,0,0,1)';
+            var no_color = 'rgba(0,0,0,0)';
+
+            $('li').on('mouseenter', function () {
+                $(this).find('img').stop(true).animate({
+                    opacity: 1,
+                    width: '900px'
+                }, duration)
+                $('ul').stop(true).animate({
+                    width: '100%'
+                })
+                $('li').stop(true).animate({
+                    width: '25%'
+                }, duration)
+                $(this).stop(true).animate({
+                    width: '50%'
+                }, duration)
+                $(this).find('span').stop(true)
+                    .animate({
+                        color: '#fff',
+                        backgroundColor: color
+                    }, duration)
+
+            }).on('mouseleave', function () {
+                $(this).find('img').stop(true).animate({
+                    opacity: 1,
+                    width: '450px'
+                }, duration)
+                $('li').stop(true).animate({
+                    width: '33.333333%'
+                }, duration);
+                $('ul').stop(true).animate({
+                    width: '100%'
+                })
+                $(this).find('span').stop(true)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="container">
+            <ul>
+                <li class="box_01">
+                    <a href="#">
+                        <span>RESUME</span>
+                    </a>
+                </li>
+                <li class="box_02">
+                    <a href="#">
+                        <span>PORTFOLIO</span>
+                    </a>
+                </li>
+                <li class="box_03">
+                    <a href="#">
+                        <span>CONTACT</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="resume"></div>
+        <div id="portfolio"></div>
+        <div id="contact"></div>
+    </div>
+</body>
+
+</html>

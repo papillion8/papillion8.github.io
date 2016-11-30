@@ -1,0 +1,56 @@
+
+#resume{width: 100%;height: 975px;background-color: #bba;}
+aside{width: 16rem; height: 100%;	position: fixed; z-index:500;float: left;
+	background-color: #000; top:0; left:-10rem;	box-sizing:border-box; padding:2rem;
+	transition:0.5s;}
+aside>ul{width: 180px; height: auto; margin-top: 140%; padding-left: 10%;}
+aside li{width: 100%; height: 100%; text-align: right;
+	margin-bottom: 2rem; overflow: hidden;}
+aside li>a{display:block; width:100%; height:100%; position:relative;}
+aside li>a:focus{color: #fc0;}
+aside li>a:hover{color:#fc0; outline: 0;}
+
+
+
+aside li>a>img{width:auto; height:100%; 
+	position: absolute; top:0; left:0; transition: all 0.5s;}
+aside li>a:hover img{left:-50%;}
+/*
+aside>.btn{width:3rem; height:3rem; background:inherit; 
+	position:absolute; z-index:100; right:2rem; top:2rem;}
+aside>.btn>button{width:100%; height: 100%; background-color:transparent; position: relative;border: 3px solid #000;}
+aside button:focus{outline: 0; }
+
+aside button>i{display: block; width: 1.5rem; height: 1.5rem; color: #fff;
+	background-image: url("../../img/arrow.png"); position: absolute; top: 0.5rem; right: 0.5rem;
+	background-repeat:no-repeat; background-position: center;	background-size:contain;}
+
+
+aside button>span{position: absolute; bottom: 1.5rem; right:-0.5rem; overflow: hidden;text-transform: uppercase; line-height: 0.8rem; text-align: left;}
+*/
+.active{ left:0;}
+i{padding-left: 23%;}
+a{cursor: pointer;}
+.fa-user{width: 28px;padding-right: 1%;}
+.fa-file{width: 30px;}
+.fa-mobile{width: 25px;padding-right: 5px;}
+.fa-arrow-circle-up{margin-top: 170%;}
+
+
+
+
+
+#portfolio{width: 100%;height: 975px;background-color: #dcd;}
+.res{width: 30%;padding-top: 2%;padding-left: 4%;}
+.con{width: 30%;padding-top: 2%;padding-left: 4%;}
+.por01{font-size: 2.5rem;padding-top: 3%; padding-left: 6%	}
+.por02{font-size: 1.5rem;padding-left: 6%}
+
+.img01{width: 28.9%;height: 100%;float: right;background-color: #501;background-attachment:fixed; margin-top: -5%;}
+
+.img02{width: 28.9%;height: 100%;float: right;background-color: #501;background-attachment:fixed; margin-top: -6.4%;}
+
+.img03{width: 28.9%;height: 100%;float: right;background-color: #501;background-attachment:fixed; margin-top: -5.9%;}
+
+
+#contact{width: 100%;height: 975px;background-color: #550;}

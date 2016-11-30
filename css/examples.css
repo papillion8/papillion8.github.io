@@ -1,0 +1,111 @@
+body {font-family: arial, helvetica;color: #fff;text-align: center;}
+a{text-decoration: none;}
+ol,ul {list-style: none;margin: 0 auto;padding: 0;}
+p{font-size: 2em;}
+h1{font-size: 3em;}
+/* 모바일---------------------------------------------*/
+
+
+
+
+/*icon-------------------------*/
+.info_section { order: 1; width: 100%; background-color: #000;}
+.info_list {display: flex;}
+.info_list li {width: 25%;text-align: center;}
+.info_list li a {display: block;padding: 15px 0;
+    padding: 0.938rem 0;}
+
+/*header----------------------- */
+.header { display: flex; order: 2; flex-direction: column;
+    position: relative; width: 100%;}
+nav{ display: none;}
+/*
+.gnb li {}
+.gnb li a {width: 80%; padding: 20px 0; padding: 1.250rem 0;
+    font-size: 0.938em; font-size: 0.938rem;text-indent: 20px;
+    text-indent: 1.250rem;font-weight: bold;
+    text-transform: uppercase;color: #fff;}
+.gnb li span {width: 20%;text-indent: -9999px;cursor: pointer;}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 태블릿------------------------------------------------*/
+@media screen and (min-width:768px)
+/*header----------------------- */
+.header {flex-direction: row;position: fixed; height: 50px; display: block; width: 100%; background-color: #0b0b0b; z-index: 9; text-align: center;
+            color: #777; padding: 10px 0 0 0;}
+.nav {position: relative; min-height: 80px;
+    min-height: 5.000rem;margin-top: -10px;}
+.gnb {position: absolute;top: 100%;right: 0;z-index: 20;
+    width: 40.10416666666667%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PC--------------------------------------------------------------------*/
+@media screen and (min-width:960px) {
+/*icon-------------------------*/
+.info_section {display: none;}
+/*header----------------------- */
+.header {order: 1; justify-content: flex-end;
+    position: static;background-color: #0b0b0b;position: fixed; height: 50px; display: block; z-index: 9; text-align: center;
+            color: #777; padding: 10px 0 0 0;}
+.nav {display: flex; align-items: center;
+    position: static;  */}
+.gnb {display: flex !important;flex-direction: row;
+    position: static;}
+.gnb li { display: block;margin:0 auto;
+    /* 50px ÷ 840px */}
+.gnb li a { width: auto;color: #fff; padding: 0;
+    text-indent: 0;}
+.gnb li span {display: none;}
