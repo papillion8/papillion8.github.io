@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>★LEY★</title>
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/scrolloverflow.js"></script>
+    <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+    <script type="text/javascript" src="./js/examples.js"></script>
+    <script type="text/javascript" src="./js/popup.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                anchors: ['firstPage', 'secondPage', '3rdPage'],
+                sectionsColor: ['#393430', '#393430', '#393430'],
+                css3: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <section class="info_section">
+            <ul class="info_list">
+                <li>
+                    <a href="index.html"><img src="./img/home.png" alt="home" class="home"></a>
+                </li>
+                <li>
+                    <a href="#resume"><img src="./img/people.png" alt="resume" class="resume"></a>
+                </li>
+                <li>
+                    <a href="#portfolio"><img src="./img/note.png" alt="portfolio" class="portfolio"></a>
+                </li>
+                <li>
+                    <a href="#contact"><img src="../img/iphone.png" alt="contact" class="contact"></a>
+                </li>
+            </ul>
+        </section>
+        <nav class="nav">
+            <ul class="gnb">
+                <li><a href="./index.html">HOME</a><span class="sub_menu_toggle_btn">하위 메뉴 토글 버튼</span></li>
+                <li><a href="#resume">RESUME</a><span class="sub_menu_toggle_btn">하위 메뉴 토글 버튼</span></li>
+                <li><a href="#portfolio">PORTFOLIO</a><span class="sub_menu_toggle_btn">하위 메뉴 토글 버튼</span></li>
+                <li><a href="#contact">CONTACT</a><span class="sub_menu_toggle_btn">하위 메뉴 토글 버튼</span></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="fullpage">
+        <div class="section" id="resume">
+            <div class="intro">
+                <h1>RESUME</h1>
+                <p></p>
+            </div>
+        </div>
+        <div class="section" id="portfolio">
+            <div class="slide" id="slide1">
+                <div class="intro">
+                    <h1>Before</h1>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="slide" id="slide2">
+                <h1>Color/Font</h1>
+                <img src="" alt="" id="" />
+            </div>
+            <div class="slide" id="slide3">
+                <h1>Sketch/Design</h1>
+                <ul class="design clearfix">
+                    <li class="des01">                
+                       <a href="#">
+                        <img src="./img/mokup_01.png" alt="suwon_bus" />
+                        </a>
+                    </li>
+                    <li class="des02">                
+                       <a href="#">
+                        <img src="./img/suwon_faq01.png" alt="suwon_busticket" />
+                    </a>
+                    </li>
+                    <li class="des03">                
+                       <a href="#">
+                        <img src="./img/mokup_02.png" alt="suwon_cancleinfo" />
+                    </a>
+                    </li>
+                    <li class="des04">                
+                       <a href="#">
+                        <img src="./img/suwon_bus.png" alt="suwon_faq01" class="suwon_faq01" />
+                    </a>
+                    </li>
+                    <li class="des05">                
+                       <a href="#">
+                        <img src="./img/mokup_03.png" alt="suwon_faq02" class="suwon_faq02" />
+                    </a>
+                    </li>
+                    <li class="des06">                
+                       <a href="#">
+                        <img src="./img/suwon_ticket.png" alt="suwon_faq03" class="suwon_faq03" />
+                    </a>
+                    </li>
+                    <li class="des07">                
+                       <a href="#">
+                        <img src="./img/mokup_07.png" alt="suwon_faq04" class="suwon_faq04" />
+                    </a>
+                    </li>
+                    <li class="des08">                
+                       <a href="#">
+                        <img src="./img/suwon_busticket.png" alt="suwon_main01" class="suwon_main01" />
+                    </a>
+                    </li>
+                    <li class="des09">                
+                       <a href="#">
+                        <img src="./img/mokup_05.png" alt="suwon_main02" class="suwon_main02" />
+                    </a>
+                    </li>
+                    <li class="des10">                
+                       <a href="#">
+                        <img src="./img/suwon_cancleinfo.png" alt="suwon_mainmenu" class="suwon_mainmenu" />
+                        </a>
+                    </li>
+                    <li class="des11">                
+                       <a href="#">
+                        <img src="./img/mokup_06.png" alt="suwon_notice" class="suwon_notice" />
+                        </a>
+                    </li>
+                    <li class="des12">                
+                       <a href="#">
+                        <img src="./img/suwon_main01.png" alt="suwon_ticket" class="suwon_ticket" />
+                        </a>
+                    </li>
+                </ul>
+                <div class="pu">
+                    <ul>
+                        <li><img src="./img/mokup_01.png" alt="suwon_bus" /> </li>
+                        <li><img src="./img/suwon_faq01.png" alt="suwon_busticket" /></li>
+                        <li><img src="./img/mokup_02.png" alt="suwon_cancleinfo" /></li>
+                        <li><img src="./img/suwon_bus.png" alt="suwon_faq01" class="suwon_faq01" /></li>
+                        <li><img src="./img/mokup_03.png" alt="suwon_faq02" class="suwon_faq02" /></li>
+                        <li><img src="./img/suwon_ticket.png" alt="suwon_faq03" class="suwon_faq03" /></li>
+                        <li><img src="./img/mokup_07.png" alt="suwon_faq04" class="suwon_faq04" /></li>
+                        <li><img src="./img/suwon_busticket.png" alt="suwon_main01" class="suwon_main01" /></li>
+                        <li><img src="./img/mokup_05.png" alt="suwon_main02" class="suwon_main02" /></li>
+                        <li><img src="./img/suwon_cancleinfo.png" alt="suwon_mainmenu" class="suwon_mainmenu" /></li>
+                        <li><img src="./img/mokup_06.png" alt="suwon_notice" class="suwon_notice" />         </li>
+                        <li><img src="./img/suwon_main01.png" alt="suwon_ticket" class="suwon_ticket" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide" id="slide4">
+                <h1>After</h1>
+                <img src="" alt="" id="" />
+            </div>
+        </div>
+        <div class="section" id="contact">
+            <div class="intro">
+                <h1>LEY</h1>
+                <h2>010.9491.5332</h2>
+                <h2>papillion8.github.io</h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
