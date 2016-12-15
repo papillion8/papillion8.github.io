@@ -208,9 +208,10 @@ li>a>img{width: 40%;}
     .pu li.pop01{background-color: transparent;  display: block;
         }
     
-    .resume{width: 1300px;margin-top: 5%;}
+    .resume{width: 1300px;margin-top: 5%; background-color: #393430;}
     
-    
+    .contact{background-color: #393430;}
+    .portfolio{background-color: #393430;}
     
     
     ul>li>img{width: 250px;height:180px ;margin-left: 30px;border:1px solid #333;}
