@@ -1,0 +1,121 @@
+body{overflow-x: hidden;}
+#box {width: 1200px; height: 1080px; font-family: "nanumgotic";
+    background-image: url(../image/busterminal.jpg ); margin: 0 auto;
+    background-size: 100% 60%; background-repeat: no-repeat; margin: 0 auto;}
+.header01 a {float: right; margin-right: 3rem;}
+.header01 {width: 1200px; height: 30px; padding-top: 12px; margin: auto;
+    border-bottom: 2px solid #fff; font-size: 16px; position: relative; z-index: 100;}
+.header01::before{content:" "; display: block; width: 100vw; height: 42px; 
+    background-color: rgba(1, 36, 72, 0.9); position: absolute; top: 0; left: 50%;
+    z-index: -100; margin-left: -50vw;}
+.header02 {width: 100%; height: 130px; margin: 0 auto; position: absolute;top: 30;
+    left: 0; background-color: rgba(1, 36, 72, 0.6);}
+.header02::before{}
+.logo {width: 170px; height: 62px; padding: 50px; margin-left: 350px;float: left;}
+.nav {width: 1200px; height: 120px; background-color: #012448; margin-left: 278px;
+    padding-top: 10px; padding-left: 148px; margin: 0 auto;font-size: 16px;
+    text-align: center;font-weight: bold; background-color: rgba(1, 36, 72, 0);}
+.menu01 {width: 172px; height: 60px; margin-left: 240px; padding-top: 60px;
+    float: left;}
+.menu02 {width: 172px; height: 60px; padding-top: 60px; float: left;}
+.menu03 {width: 172px; height: 60px; padding-top: 60px; float: left;}
+.menu04 {width: 172px; height: 60px; padding-top: 60px; float: left;}
+.smallmenu {height: 0; font-size: 16px; font-weight: normal;transition: all 0.5s;
+    overflow: hidden; margin-top: 44px; position: relative; z-index: 500;}
+.nav:hover .smallmenu {padding-top: 20px; height: 208px;
+    background-color: rgba(1, 36, 72, 0.95);line-height: 3;}
+.smallmenu a {transition: all 0.3s;}
+.smallmenu a:hover {font-weight: bold; font-size: 18px; border-bottom: 1px solid #fff;}
+
+
+#section {width: 340px; height: 440px; margin-left: 775px; margin-top: 140px;
+    font-weight: bold;float: left;}
+
+.bus {width: 340px; height: 50px; font-weight: bold; float: left;}
+
+.bus > li {background-color: #012448; color: #fff;}
+
+.sc01 {width: 170px; height: 43px; padding-top: 15px; font-size: 18px;
+    text-align: center; font-weight: bold;float: left;}
+
+.sc02 {width: 170px; height: 43px; padding-top: 15px; font-size: 18px;
+    font-weight: bold; text-align: center; float: left;}
+
+.sc01 a,.sc02 a {color: inherit;}
+
+.bus > li.ui-tabs-active {background-color: rgba(255, 255, 255, 0.9);color: #012448;}
+
+#section01 {width: 340px;height: 380px;margin-top: 58px;
+    background-color: rgba(255, 255, 255, 0.9);font-weight: bold;}
+
+.oneway {margin-top: 14px; margin-left: 114px; float: left;}
+
+.twoway {margin-top: 14px; margin-left: 24px;float: left;}
+
+#start {width: 125px; height: 30px; border-bottom: 1px solid #012448;margin-left: 29px;
+    float: left;}
+
+#end {width: 125px; height: 30px; border-bottom: 1px solid #012448; margin-left: 31px;
+    float: left;}
+
+#goday {width: 125px; height: 30px; border-bottom: 1px solid #012448; margin-top: 25px;
+    margin-left: 29px;float: left;}
+
+#gotime {width: 125px; height: 30px; border-bottom: 1px solid #012448; margin-top: 25px;
+    margin-left: 31px; float: left;}
+
+#comeday {width: 125px; height: 30px; border-bottom: 1px solid #012448;
+    margin-top: 25px; margin-left: 29px;float: left;}
+
+#cometime {width: 125px; height: 30px; border-bottom: 1px solid #012448;
+    margin-top: 25px; margin-left: 31px; float: left;}
+
+#section02 {width: 340px; height: 380px; margin-top: 58px;
+    background-color: rgba(255, 255, 255, 0.9);font-weight: bold;}
+
+.sect01 {width: 340px; height: 53px; float: left;}
+
+.sect02 {width: 340px; height: 175px;float: left;}
+
+.sect03 {width: 287px; height: 176px; margin-top: -20px; float: left;
+    margin-left: 29px;}
+
+.opt01 {float: left; text-align: right;}
+
+.opt02 {float: left; margin-left: 15px; text-align: right;}
+
+.opt03 {float: left; margin-left: 14px; text-align: right;}
+
+#peo {width: 84px; height: 30px; margin-top: 8px; border-bottom: 1px solid #012448;}
+
+.so {color: #777;font-size: 8px; margin-top: 6px;}
+
+#submit {width: 277px; height: 38px; margin-top: 12px; background-color: #d32c3d;
+    color: #fff; font-weight: bold;font-size: 20px; border: 1px solid #000;
+    border-radius: 8px;}
+
+.in01 {font-size: 12px; margin-top: 12px; color: #d32c3d;}
+
+.in02 {font-size: 12px; color: #d32c3d;}
+
+#navigation {width: 1200px; height: 200px; margin-top: 610px; background-color: #fff;
+    clear: both;}
+
+.info {width: 554px; height: 153px; margin-top: 24px; margin-bottom: 43px;
+    margin-left: 30px; border-right: 2px solid #ddd; color: #000; float: left;}
+
+.faq {width: 535px; height: 193px; margin: 24px 40px 43px 39px; float: right;}
+
+#navigation h3 {font-size: 18px; margin-bottom: 0.3rem; float: left;}
+
+#navigation h4 { margin-right: 40px; text-align: right;}
+
+#navigation li {font-size: 16px; margin-top: 18px;}
+
+#navigation h3>a {color: #000;}
+
+#navigation h4>a {color: #000;}
+
+#footer {width: 100%; height: 113px; background-color: #ccc; text-align: center;margin-top: 7px;
+    float: left; position: absolute; left: 0;}
+#footer address {margin-top: 15px;}
